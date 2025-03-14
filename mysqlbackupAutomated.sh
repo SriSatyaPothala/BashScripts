@@ -23,7 +23,7 @@ gzip "$BACKUP_DIR/DB_BACK_UP_$TIMESTAMP.sql"
 #gunzip -k ".....sql.gz" and mysql -u "username' dbname < "/path/to/unzipped .sql file"
 
 #Remove the oldbackups (older than 7 days)
-find $BACKUP_DIR -type f -name "*.gz" -mtime +7 -exec rm -f {} \;
+#find $BACKUP_DIR -type f -name "*.gz" -mtime +7 -exec rm -f {} \;
 
 echo "Backup completed Successfully"
 
