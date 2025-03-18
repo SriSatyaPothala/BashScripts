@@ -11,3 +11,6 @@ mv tempoutput.txt "$FILE_PATH"
 
 echo "Substitution Successfull"
 
+
+#SubstitutionScriptOp.png has the output
+
