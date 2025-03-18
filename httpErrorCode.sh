@@ -23,3 +23,4 @@ else
 fi
 
 #httpErrorCodeOP.png has the output
+#textSubstitutionScript.sh is the second task script
