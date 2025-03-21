@@ -21,3 +21,6 @@ if [[ $HTTP_CODE =~ ^[0-9]+$ ]]; then
 else
 	echo "Curl Error: $HTTP_CODE"
 fi
+
+#httpErrorCodeOP.png has the output
+#textSubstitutionScript.sh is the second task script
